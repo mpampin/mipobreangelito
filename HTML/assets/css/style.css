@@ -3971,7 +3971,8 @@ textarea.form-control[rows="7"] {
     z-index: 9;
     position: relative;
     text-transform: uppercase;
-    top: -10px; }
+    top: -10px;
+    margin-left: 60px;}
   .ct-pricing-box__svg {
     fill: #fc6a9c;
     height: 82px;
