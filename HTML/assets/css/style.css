@@ -4149,7 +4149,6 @@ html:not(.mobile):not(.tablet) .ct-party-box.ct-party-box--simple .ct-party-box_
   vertical-align: middle; }
 
 .ct-address-box {
-  max-width: 191px;
   width: 100%;
   display: inline-block;
   text-align: left;

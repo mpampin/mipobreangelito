@@ -72,50 +72,95 @@
         </svg>
         <div class="ct-page-header__inner">
             <div class="container">
-                <h1 class="h1 ct-page-header__title">Galería de <b>fotos</b></h1>
+                <h1 class="h1 ct-page-header__title">Vení a ver el salón</h1>
             </div>
         </div>
     </header>
     <!-- *** Main *** -->
     <main>
-        <!-- *** galeria *** -->
-        <section class="container text-center">
-            <div class="ct-isotope-gallery ct-isotope-gallery--lg-4 ct-isotope-gallery--md-3 ct-isotope-gallery--sm-2 ct-isotope-gallery--xs-1">
-                <figure class="ct-isotope-item isotope-grid-sizer august">
-                    <div class="ct-isotope-item__media">
-                        <a href="assets/images/salon/3.jpg" class="mfp-image">
-                            <img src="assets/images/salon/3.jpg" alt="Gallery Item" />
-                            <div class="ct-isotope-item__hover"></div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="ct-isotope-item isotope-grid-sizer august">
-                    <div class="ct-isotope-item__media">
-                        <a href="assets/images/salon/4.jpg" class="mfp-image">
-                            <img src="assets/images/salon/4.jpg" alt="Gallery Item" />
-                            <div class="ct-isotope-item__hover"></div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="ct-isotope-item isotope-grid-sizer august">
-                    <div class="ct-isotope-item__media">
-                        <a href="assets/images/salon/5.jpg" class="mfp-image">
-                            <img src="assets/images/salon/5.jpg" alt="Gallery Item" />
-                            <div class="ct-isotope-item__hover"></div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="ct-isotope-item isotope-grid-sizer august">
-                    <div class="ct-isotope-item__media">
-                        <a href="assets/images/salon/6.jpg" class="mfp-image">
-                            <img src="assets/images/salon/6.jpg" alt="Gallery Item" />
-                            <div class="ct-isotope-item__hover"></div>
-                        </a>
-                    </div>
-                </figure>
+        <div class="container ct-u-padding-top-30">
+            <!-- *** Shop Locator *** -->
+            <div class="ct-map">
+                <div class="firstStyle"></div>
             </div>
-            <div class="ct-u-padding-bottom-50">
-                <a href="mpa.html" class="btn btn-motive">Volver</a>
+            <!-- *** Address Boxes *** -->
+            <div class="ct-address-box__container">
+                <div class="col-md-4">
+                    <div class="ct-address-box">
+                        <h3 class="ct-address-box__header">Dirección</h3>
+                        <ul class="ct-address-box__list">
+                            <li><a href="https://goo.gl/maps/tr44EUQdmUJ2" target="_blank"><i class="fa fa-map-marker fa-lg"></i><span>Av. Juan de Garay 3089, San Cristóbal, CABA</span></a>
+                            </li>
+                            <li><i class="fa fa-bus fa-lg"></i><span>4, 6, 32, 92, 101, 114, 134, 188</span></li>
+                            <li><i class="fa fa-subway fa-lg"></i><span>Líneas E y H</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ct-address-box">
+                        <h3 class="ct-address-box__header">Teléfonos</h3>
+                        <ul class="ct-address-box__list">
+                            <li><a href="tel:49415317"><i class="fa fa-phone fa-lg"></i><span>(011) 4941-5317</span></a>
+                            </li>
+                            <li><a href="tel:1540787261"><i class="fa fa-whatsapp fa-lg"></i><span>15-4078-7261</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ct-address-box">
+                        <h3 class="ct-address-box__header">Email</h3>
+                        <ul class="ct-address-box__list">
+                            <li><a href="mailto:salonmipobreangelito@gmail.com"><i class="fa fa-envelope fa-lg"></i><span>salonmipobreangelito@gmail.com</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *** Contacto *** -->
+        <section class="container text-center ct-u-display-tablex ct-u-margin-top-35" data-background="#3d3d3d">
+            <h2 class="ct-section-header ct-u-margin-top-35 ct-u-margin-bottom-0">¡Dejanos un mensaje!</h2>
+            <div class="row">
+                <div class="ct-form-section ct-form-section--type2">
+                    <h2 class="h4 ct-form-section__title text-left">Dejanos un mensaje y nos pondremos en contacto</h2>
+                    <form action="assets/form/send.php" method="POST" data-email-subject="Ir a ver el salon" class="ct-js-validate ct-form-section__form">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Nombre" id="name" name="field[]" required="required" class="form-control" />
+                                    <label for="name" class="sr-only">Nombre</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="Email" id="email" name="field[]" required="required" class="form-control" />
+                                    <label for="email" class="sr-only">Email</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" placeholder="Teléfono" id="telephone" name="field[]" class="form-control" />
+                                    <label for="telephone" class="sr-only">Teléfono</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <textarea placeholder="¡Sacate todas tus dudas!" id="message" rows="7" required="required" name="field[]" class="form-control"></textarea>
+                                    <label for="message" class="sr-only">¡Sacate todas tus dudas!</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <button type="submit" class="btn btn-motive">Enviar
+                                </button>
+                            </div>
+                        </div>
+                        <div role="alert" class="successMessage alert alert-success alert-dismissible">
+                            <button type="button" data-dismiss="alert" aria-label="Close" class="close"><span aria-hidden="true">&times;</span>
+                            </button>El mensaje ha sido enviado con éxito. Nos pondremos en contacto en breve.
+                        </div>
+                        <div role="alert" class="errorMessage alert alert-danger alert-dismissible">
+                            <button type="button" data-dismiss="alert" aria-label="Close" class="close"><span aria-hidden="true">&times;</span>
+                            </button>Ups, Algo salió mal.
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
