@@ -44,7 +44,7 @@
                     <div class="media-left"><i class="fa fa-envelope"></i></div>
                     <div class="media-body"><span class="media-heading">salonmipobreangelito@gmail.com</span></div></a><a href="tel:49415317" class="media ct-address__box">
                     <div class="media-left"><i class="fa fa-phone"></i></div>
-                    <div class="media-body"><span class="media-heading">(011) 4941-5317</span></div></a><a href="tel:15-4078-7261" class="media ct-address__box">
+                    <div class="media-body"><span class="media-heading">(011) 4941-5317</span></div></a><a href="intent://send/5491140787261#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end" class="media ct-address__box">
                     <div class="media-left"><i class="fa fa-whatsapp"></i></div>
                     <div class="media-body"><span class="media-heading">15-4078-7261</span></div></a>
                 </address>
@@ -152,17 +152,31 @@
                         <div class="ct-icon-box__inner">
                             <div class="ct-icon-box__icon">
                                 <div class="inner">
-                                    <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+                                    <i class="fa fa-credit-card fa-3x" aria-hidden="true"></i>
                                 </div>
                             </div>
-                            <h3 class="ct-icon-box__header">Buena música</h3>
-                            <p class="ct-icon-box__content">Los temas del momento, acorde a tus gustos y la temática de tu fiesta.
+                            <h3 class="ct-icon-box__header">¡Pagá en cuotas!</h3>
+                            <p class="ct-icon-box__content">Aceptamos tarjetas de débito, crédito y mercadopago.
                             </p>
                         </div>
                     </a>
                 </div>
             </div>
             <div id="row-hidden" class="row hidden">
+                <div class="col-md-3 col-xs-6">
+                    <a href="#" class="ct-icon-box">
+                        <div class="ct-icon-box__inner">
+                            <div class="ct-icon-box__icon">
+                                <div class="inner">
+                                    <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <h3 class="ct-icon-box__header">Buena música</h3>
+                            <p class="ct-icon-box__content">Los temas del momento, acorde a tus gustos y tu fiesta.
+                            </p>
+                        </div>
+                    </a>
+                </div>
                 <div class="col-md-3 col-xs-6">
                     <a href="#" class="ct-icon-box">
                         <div class="ct-icon-box__inner">
@@ -179,6 +193,7 @@
                         </div>
                     </a>
                 </div>
+                <div class="clearfix visible-xs visible-sm"></div>
                 <div class="col-md-3 col-xs-6">
                     <a href="#" class="ct-icon-box">
                         <div class="ct-icon-box__inner">
@@ -193,7 +208,6 @@
                         </div>
                     </a>
                 </div>
-                <div class="clearfix visible-xs visible-sm"></div>
                 <div class="col-md-3 col-xs-6">
                     <a href="#" class="ct-icon-box">
                         <div class="ct-icon-box__inner">
@@ -208,6 +222,7 @@
                         </div>
                     </a>
                 </div>
+                <div class="clearfix visible-xs visible-sm"></div>
                 <div class="col-md-3 col-xs-6">
                     <a href="#" class="ct-icon-box">
                         <div class="ct-icon-box__inner">
@@ -222,7 +237,6 @@
                         </div>
                     </a>
                 </div>
-                <div class="clearfix visible-xs visible-sm"></div>
                 <div class="col-md-3 col-xs-6">
                     <a href="#" class="ct-icon-box">
                         <div class="ct-icon-box__inner">
@@ -235,6 +249,21 @@
                             </div>
                             <h3 class="ct-icon-box__header">Cafetería</h3>
                             <p class="ct-icon-box__content">Para los más grandes, con café, té, mate y masitas dulces.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="clearfix visible-xs visible-sm"></div>
+                <div class="col-md-3 col-xs-6">
+                    <a href="#" class="ct-icon-box">
+                        <div class="ct-icon-box__inner">
+                            <div class="ct-icon-box__icon">
+                                <div class="inner">
+                                    <i class="fa fa-thermometer-three-quarters fa-3x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <h3 class="ct-icon-box__header">Ambiente climatizado</h3>
+                            <p class="ct-icon-box__content">Olvidate de los 40º en verano y la campera en invierno.
                             </p>
                         </div>
                     </a>
@@ -306,7 +335,8 @@
                                         <li>Decoración especial y disfraces</li>
                                         <li>Animadores especialistas</li>
                                     </ul>
-                                    <div class="clearfix"></div><a href="book-party.html" class="btn btn-default-o--type2">¿Qué más?</a>
+                                    <div class="clearfix"></div>
+                                    <button type="button" class="btn btn-default-o--type2" data-toggle="modal" data-target="#modal-promo-1"> ¿Qué más? </button>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +360,8 @@
                                         <li>Carnaval Carioca</li>
                                         <li><b>Opcional:</b> Parrilla</li>
                                     </ul>
-                                    <div class="clearfix"></div><a href="book-party.html" class="btn btn-default-o--type2">¿Qué más?</a>
+                                    <div class="clearfix"></div>
+                                    <button type="button" class="btn btn-default-o--type2" data-toggle="modal" data-target="#modal-promo-2"> ¿Qué más? </button>
                                 </div>
                             </div>
                         </div>
@@ -354,7 +385,8 @@
                                         <li>Fotógrafo</li>
                                         <li>Y mucho más...</li>
                                     </ul>
-                                    <div class="clearfix"></div><a href="book-party.html" class="btn btn-default-o--type2">¿Qué más?</a>
+                                    <div class="clearfix"></div>
+                                    <button type="button" class="btn btn-default-o--type2" data-toggle="modal" data-target="#modal-promo-2"> ¿Qué más? </button>
                                 </div>
                             </div>
                         </div>
@@ -475,6 +507,103 @@
         </div>
     </footer>
 </div>
+
+<!-- *** Modals *** -->
+<div class="modal fade" tabindex="-1" role="dialog" id="modal-promo-1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content ct-pricing-box__inner">
+            <div class="ct-pricing-box__header modal-header">
+                <button type="button" class="close ct-pricing-box__close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+                <div class="ct-pricing-box__price"><span><i class="fa fa-birthday-cake fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <h4 class="ct-pricing-box__title">Fiestas infantiles</h4>
+            </div>
+            <div class="ct-u-margin-top-20">
+                <h4 class="ct-u-font-size--20"><b>Incluye:</b></h4>
+                <ul class="ct-pricing-box__list">
+                    <li>Hasta 25 chicos (¡homenajeado sin cargo!)</li>
+                    <li>Hasta 25 adultos</li>
+                    <li>2 hs y media de fiesta</li>
+                    <li>Animación y DJ con los temas del momento</li>
+                    <li>Salón climatizado</li>
+                    <li>Tarjetas de invitación</li>
+                    <li>Globos, piñata y bolsitas de regalo</li>
+                    <li>Regalo especial al homenajeado</li>
+                    <li>Entrada con show de música y luces</li>
+                    <li>Disfraz de personaje favorito o princesa al momento de la torta (con música y luces)</li>
+                    <li>Menú infantil: mesa salada (snacks, panchos, gaseosas, todo primera marca) y mesa dulce</li>
+                    <li>Torta decorada</li>
+                    <li>Servicio de cafetería para adultos (café, te y mate)</li>
+                    <li>Auxiliar de cocina y camarera, mantelería y vajilla</li>
+                    <li>Baúl para regalos</li>
+                    <li>Pista de baile con luces y efectos especiales, show de láser</li>
+                    <li>Karaoke con pantalla LED</li>
+                    <li>Videojuegos, Play Station 2 y gruas de golosinas y juguetes (todos llevan un premio)</li>
+                    <li>Plaza blanda para los más chiquitos</li>
+                    <li>Ping-pong, pool, metegol, mesa de tejo, paletagol - ¡Competencias por equipos con premios!</li>
+                    <li>Castillo inflable</li>
+                    <li>Patio al aire libre / área para fumadores</li>
+                    <li>Internet WIFI</li>
+                </ul>
+                <h4 class="ct-u-font-size--20"><b>Opcionales:</b></h4>
+                <ul class="ct-pricing-box__list">
+                    <li>Horas extra</li>
+                    <li>Parrilla</li>
+                    <li>Chicos adicionales</li>
+                    <li>Animador adicional</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="modal-promo-2">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content ct-pricing-box__inner">
+            <div class="ct-pricing-box__header modal-header">
+                <button type="button" class="close ct-pricing-box__close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+                <div class="ct-pricing-box__price"><span><i class="fa fa-birthday-cake fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <h4 class="ct-pricing-box__title">Eventos de adultos</h4>
+            </div>
+            <div class="ct-u-margin-top-20">
+                <h4 class="ct-u-font-size--20"><b>Incluye:</b></h4>
+                <ul class="ct-pricing-box__list">
+                    <li>Hasta 60 personas</li>
+                    <li>Ambiente climatizado</li>
+                    <li>3 hs de fiesta más 1/2 hora para retirarse</li>
+                    <li>Invitaciones especiales</li>
+                    <li>Coordinador / DJ</li>
+                    <li>Mantelería y vajilla</li>
+                    <li>Menú para los niños</li>
+                    <li>Piñana, bolsitas de regalo y globox para todos los niños</li>
+                    <li>Servicio de cafetería (café, te, mate)</li>
+                    <li>Asistente de cocina y camarera</li>
+                    <li>Pantalla LED 50" (para pasar videos)</li>
+                    <li>Karaoke</li>
+                    <li>Patio al aire libre / área de fumadores</li>
+                    <li>Pista de baile con show de láser</li>
+                    <li>Videojuegos, Play Station II, gruas de golosinas y juguetes</li>
+                    <li>Ping-pong, pool, metegol, mesa de tejo, paletagol</li>
+                    <li>Plaza blanda para los chiquitos</li>
+                </ul>
+                <h4 class="ct-u-font-size--20"><b>Extras:</b></h4>
+                <ul class="ct-pricing-box__list">
+                    <li>Horas extra</li>
+                    <li>Parrilla</li>
+                    <li>Animación</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <button data-scroll="up" class="ct-btn--scroll-up"><span><i class="fa fa-chevron-up"></i></span>
 </button>
 <!-- *** Mobile Navbar *** -->

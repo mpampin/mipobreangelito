@@ -3958,6 +3958,9 @@ textarea.form-control[rows="7"] {
     color: white;
     padding: 0 11px 30px;
     border-radius: 0 0 30px 30px; }
+  .modal .ct-pricing-box__inner {
+    border-radius: 0 15px 30px 30px;
+  }
   .ct-pricing-box__content {
     text-align: center; }
   .ct-pricing-box__header {
@@ -3973,6 +3976,14 @@ textarea.form-control[rows="7"] {
     text-transform: uppercase;
     top: -10px;
     margin-left: 60px;}
+  .modal .ct-pricing-box__title {
+    font-size: 24px;
+    top: 0;
+    margin:15px 15px 0 15px;
+  }
+  .modal .ct-pricing-box__close {
+    margin-top: 15px;
+  }
   .ct-pricing-box__svg {
     fill: #fc6a9c;
     height: 82px;
@@ -4034,6 +4045,9 @@ textarea.form-control[rows="7"] {
     font-size: 24px;
     font-weight: bold;
     z-index: 5; }
+  .modal .ct-pricing-box__price {
+    top: -20px;
+  }
     .ct-pricing-box__price span {
       display: table-cell;
       vertical-align: middle;
@@ -4044,6 +4058,10 @@ textarea.form-control[rows="7"] {
     padding: 10px 20px 30px 40px; }
     .ct-pricing-box__list li + li {
       margin-top: 20px; }
+  .modal .ct-pricing-box__list {
+    padding: 10px 10px 30px 30px; }
+    .modal .ct-pricing-box__list li + li {
+      margin-top: 10px; }
 
 .ct-party-box {
   text-align: center;
