@@ -429,25 +429,26 @@
             </div>
             <div class="row">
                 <div class="ct-form-section ct-form-section--type2 ct-u-margin-top-35">
-                    <form action="assets/form/send.php" method="POST" data-email-subject="Pregunta de Mi Pobre Angelito" class="ct-js-validate ct-form-section__form">
+                    <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+                    <form action="http://salonmipobreangelito.wufoo.com.mx/forms/z18nnaon1cnborz/#public" method="post" data-email-subject="Pregunta de Mi Pobre Angelito" class="ct-js-validate ct-form-section__form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" novalidate target="dummyframe">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" placeholder="Nombre" id="name" name="field[]" required="required" class="form-control" />
+                                    <input type="text" placeholder="Nombre" id="name" name="Field8" required="required" class="form-control" />
                                     <label for="name" class="sr-only">Nombre*</label>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" placeholder="Email" id="email" name="field[]" required="required" class="form-control" />
+                                    <input type="email" placeholder="Email" id="email" name="Field5" required="required" class="form-control" />
                                     <label for="email" class="sr-only">Email*</label>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" placeholder="Teléfono" id="telephone" name="field[]" class="form-control" />
+                                    <input type="tel" placeholder="Teléfono" id="telephone" name="Field6" class="form-control" />
                                     <label for="telephone" class="sr-only">Teléfono</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <textarea placeholder="Mensaje" id="message" rows="7" required="required" name="field[]" class="form-control"></textarea>
+                                    <textarea placeholder="Mensaje" id="message" rows="7" required="required" name="Field7" class="form-control"></textarea>
                                     <label for="message" class="sr-only">¡Sacate todas tus dudas!</label>
                                 </div>
                             </div>
@@ -455,6 +456,7 @@
                                 <button type="submit" class="btn btn-motive">Enviar consulta
                                 </button>
                             </div>
+                            <input type="hidden" id="idstamp" name="idstamp" value="Yte2ODE8LnrPlKsYhXCobSA4eD5d66T/B967z1bO3vw=" />
                         </div>
                         <div role="alert" class="successMessage alert alert-success alert-dismissible">
                             <button type="button" data-dismiss="alert" aria-label="Close" class="close"><span aria-hidden="true">&times;</span>
@@ -478,10 +480,11 @@
                         <h2 class="ct-newsletter__heading"><span><small>¿Querés enterarte de promociones especiales?</small>Dejanos tu <b>e-mail</b>:</span></h2>
                     </div>
                     <div class="col-sm-16 col-md-8">
-                        <form class="ct-newsletter__form form-group from-inline">
-                            <input type="email" id="newsletter-input" placeholder="Ingresá tu E-mail" required class="ct-newsletter__input form-control">
+                        <form class="ct-newsletter__form form-group from-inline" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate="" action="https://salonmipobreangelito.wufoo.com.mx/forms/m1fk72s21qnqv3r/#public" target="dummyframe">
+                            <input type="email" id="newsletter-input" placeholder="Ingresá tu E-mail" required class="ct-newsletter__input form-control" name="Field1">
                             <button type="submit" class="btn btn-default ct-newsletter__button"><span class="ct-newsletter__submit">Suscribir</span><span class="ct-newsletter__wait"><i class="fa fa-spinner"></i></span>
                             </button><span class="ct-newsletter__subscribed">Gracias por suscribirte, pronto tendrás noticias de nuestras promociones.</span>
+                            <input type="hidden" id="idstamp" name="idstamp" value="E0AtmW8Y6KrK79p/cpgjMW8TsZF1Nod2Lc2OPBaAwoc=">
                         </form>
                     </div>
                 </div>
@@ -637,6 +640,16 @@
 <!-- ******************* -->
 <script src="assets/js/confetti.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99309950-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
 </html>
