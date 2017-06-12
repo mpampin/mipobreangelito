@@ -3482,6 +3482,7 @@ h2 b, .h2 b {
     font-size: 13px; } }
 
 .form-control {
+  color: #4a4a4a;
   box-shadow: none;
   -webkit-appearance: none;
      -moz-appearance: none;
